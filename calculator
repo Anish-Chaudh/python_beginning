@@ -1,0 +1,19 @@
+print('''
++ addition
+- subtraction
+* multiply
+/ divide
+ ''')
+num1=int(input("enter the first number:"))
+opr=input("enter the operator......(+,-,*,/)")
+num2=int(input("enter the second number:"))
+if opr=="+":
+    print(num1+num2)
+elif opr=="-":
+    print(num1-num2)
+elif opr=="*":
+    print(num1*num2)
+elif opr=="/":
+    print(num1/num2)
+else:
+    print("invalid operator.....")

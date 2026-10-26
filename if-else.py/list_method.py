@@ -1,0 +1,15 @@
+l=[2,4,5,8,3,1,76,0,3,10]
+print(l)
+l.append(11)
+print(l)
+l.sort()
+print(l)
+l.reverse()
+print(l)
+print(l.index(4))
+#l.count()
+l.insert(8,100)
+print(l)
+m=[2,56,5565,2332]
+l.extend(m)
+print(l)
