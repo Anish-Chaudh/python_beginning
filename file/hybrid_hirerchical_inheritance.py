@@ -16,6 +16,7 @@ class DerivedClass3(DerivedClass1, DerivedClass2):
 
 a = DerivedClass3()
 a.display()
+
 print("\n")
 class BaseClass:
     def display(self):
